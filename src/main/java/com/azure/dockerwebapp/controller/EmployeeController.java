@@ -17,7 +17,7 @@ public class EmployeeController {
 
     @GetMapping("hello")
     public String helloMessage(){
-        return "Hello Randhir. This is the response from azure web app.";
+        return "Hello Randhir. This is the response from azure web app on 26 May";
     }
 
     @GetMapping("employee/{id}")
